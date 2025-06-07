@@ -1,0 +1,12 @@
+   # System files
+   .DS_Store
+   
+   # Specific files you don't want to commit
+   lead-form.html
+   
+   # Directories you want to exclude
+   /deprecated/
+   
+   # You can also use patterns
+   *.log
+   *.tmp
