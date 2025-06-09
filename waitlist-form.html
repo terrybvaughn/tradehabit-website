@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ET4K1RMFL"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    
+        gtag('config', 'G-6ET4K1RMFL');
+    </script>
+        
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join the Waitlist</title>
@@ -261,6 +271,9 @@
             margin-top: 20px !important;
             text-align: center;
         }
+        .form-required {
+            color:rgba(255,83,215,1);
+        }
     </style>
 
     <script>window.enableEventObserver=true</script>
@@ -311,7 +324,7 @@
             <h2>JOIN THE WAITLIST</h2>
             <p>Provide your email to get early access to the TradeHabit beta.</p>
         </div>
-        <form onsubmit="return typeof testSubmitFunction !== 'undefined' && testSubmitFunction();" action="https://submit.jotform.com/submit/251575361261051" method="post" name="form_251575361261051" id="251575361261051" accept-charset="utf-8" autocomplete="on">
+        <form onsubmit="gtag('event', 'join_waitlist'); return typeof testSubmitFunction !== 'undefined' && testSubmitFunction();" action="https://submit.jotform.com/submit/251575361261051" method="post" name="form_251575361261051" id="251575361261051" accept-charset="utf-8" autocomplete="on">
             <input type="hidden" name="formID" value="251575361261051" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" />
             <input type="hidden" id="jsExecutionTracker" name="jsExecutionTracker" value="build-date-1749320633055" /><input type="hidden" id="submitSource" name="submitSource" value="unknown" />
             <input type="hidden" id="buildDate" name="buildDate" value="1749320633055" /><input type="hidden" name="uploadServerUrl" value="https://upload.jotform.com/upload" />
@@ -319,11 +332,11 @@
             <div role="main">
               <ul class="form-section page-section" role="presentation">
                 <li class="form-line jf-required" data-type="control_email" id="id_3">
-                    <label class="form-label form-label-top form-label-auto" id="label_3" for="input_3" aria-hidden="false">Email<span class="form-required">*</span> </label>
-                    <div id="cid_3" class="form-input-wide jf-required" data-layout="half"> 
+                    <label class="form-label form-label-top form-label-auto" id="label_3" for="input_3" aria-hidden="false">Email<span class="form-required" style="color:rgba(255,83,215,1)">*</span> </label>
+                    <div id="cid_3" class="form-input-wide jf-required" data-layout="half" style="margin-bottom: 10px;"> 
                         <span class="form-sub-label-container" style="vertical-align:top">
-                            <input type="email" id="input_3" name="q3_email" class="form-textbox validate[required, Email]" data-defaultvalue="" autoComplete="section-input_3 email" style="width:310px" size="310" data-component="email" aria-labelledby="label_3 sublabel_input_3" required="" value="" />
-                            <label class="form-sub-label" for="input_3" id="sublabel_input_3" style="min-height:13px">example@example.com</label>
+                            <input type="email" id="input_3" name="q3_email" class="form-textbox validate[required, Email]" data-defaultvalue="" autoComplete="section-input_3 email" style="width:310px;" size="310" data-component="email" aria-labelledby="label_3 sublabel_input_3" required="" value="" />
+                            <!-- <label class="form-sub-label" for="input_3" id="sublabel_input_3" style="min-height:13px">example@example.com</label> -->
                         </span> 
                     </div>
                 </li>

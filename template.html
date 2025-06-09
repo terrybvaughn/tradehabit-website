@@ -13,12 +13,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TradeHabit - Fix Bad Trading Habits</title>
+    <title>TEMPLATE TITLE</title>
     <meta name="keywords" content="emotional trading behavioral analytics">
     <meta name="description" content="TradeHabit helps traders identify and correct the bad trading behaviors that are draining your account.">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="TradeHabit">
-    <meta property="og:title" content="TradeHabit - Break Bad Trading Habits">
+    <meta property="og:title" content="TEMPLATE TITLE">
     <meta property="og:description" content="TradeHabit helps traders identify and correct the bad trading behaviors that are draining your account.">
     <meta property="og:url" content="https://tradehab.it">
     <meta property="og:image" content="/assets/images/tradehabit-dashboard.png">
@@ -26,7 +26,6 @@
     <meta property="og:image:width" content="1280">
     <meta property="og:image:height" content="800">
     <meta property="og:image:alt" content="TradeHabit Dashboard">
-
     <link rel="canonical" href="https://tradehab.it" />
     <link rel="shortcut icon" href="/assets/images/TH-favicon-128.png" type="image/png">
     <link rel="stylesheet" href="/assets/css/all.min.css" referrerpolicy="no-referrer">
@@ -51,60 +50,54 @@
       }
     </script>
     
-
-    <!-- ################################### -->
-    <!-- New JOIN THE WAITLIST MODAL styling -->
-
     <style>
-      body {
-        background-color:rgba(29,32,36,1);
+    body {
+      background-color:rgba(29,32,36,1);
+    }
+    .hidden {               /* already used by your JS */
+      display: none;
+    }
+    .modal {                /* full-screen overlay */
+    position: fixed;
+    inset: 0;             /* top/right/bottom/left: 0 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9998;
+    }
+    .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    }
+    .modal-dialog {         /* the white box */
+      background: #fff;
+      width: 90vw;
+      max-width: 557px;
+      height: 80vh;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+    .modal-iframe {         /* make the iframe fill the box */
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    @media (max-width: 959px) {
+      .css-94ohs6 {
+        text-align: left !important;
       }
-      .hidden {               /* already used by your JS */
-        display: none;
-      }
-      .modal {                /* full-screen overlay */
-      position: fixed;
-      inset: 0;             /* top/right/bottom/left: 0 */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      z-index: 9998;
-      }
-      .modal-overlay {
-      position: fixed;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.6);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 9999;
-      }
-      .modal-dialog {         /* the white box */
-        background: #fff;
-        width: 90vw;
-        max-width: 557px;
-        height: 80vh;
-        border-radius: 6px;
-        overflow: hidden;
-      }
-      .modal-iframe {         /* make the iframe fill the box */
-        width: 100%;
-        height: 100%;
-        border: 0;
-      }
-      @media (max-width: 959px) {
-        .css-94ohs6 {
-          text-align: left !important;
-        }
-      }
-      @media (max-width: 479px) {
-      h1 {
-        font-size: 2rem !important;
-      }
-      }
+    }
+    @media (max-width: 479px) {
+    h1 {
+      font-size: 2rem !important;
+    }
+    }
     </style>
-  
-    
   </head>
 
   <body>
@@ -131,7 +124,10 @@
             
             <div class="column flex__item--md-6 flex__item--xs-12 css-12b8izt" data-guid="82b1c119-8774-085c-bd0d-6d7a67519325"><style data-emotion-css="c14f2p">.css-c14f2p{background-color:rgba(0,0,0,0);border-color:rgba(0,0,0,0);border-radius:0px;background-size:cover;background-position:center center;background-repeat:no-repeat;padding-top:0vw;padding-right:0vw;padding-bottom:0vw;padding-left:0vw;padding-top:0cqw;padding-right:0cqw;padding-bottom:0cqw;padding-left:0cqw;}.bar .css-c14f2p{padding-top:0;padding-bottom:0;}</style><div class="inner-column css-c14f2p"><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="42ae58cb-6bb8-0b18-4f26-072b5279d475" class="widget"><style data-emotion-css="15tf01o">.css-15tf01o{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}.css-15tf01o .lp-nav__link{display:inline-block;cursor:pointer;position:relative;font-weight:bold;-webkit-text-decoration:none;text-decoration:none;}.css-15tf01o .lp-nav__link:hover:after{bottom:0;opacity:0.7;-webkit-transition:all 0.1s ease;transition:all 0.1s ease;}.css-15tf01o .lp-nav__link:after{content:'';position:absolute;bottom:-6px;height:2px;width:100%;left:0;right:0;opacity:0;pointer-events:none;}.css-15tf01o .lp-nav__link.lp-nav__link--active:after{bottom:0;opacity:1;}.css-15tf01o .lp-nav__link.lp-subnav__link:hover:after{left:-12px;}.css-15tf01o .lp-nav__link.lp-subnav__link:after{left:-18px;height:70%;width:2px;bottom:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}.css-15tf01o .lp-nav__link.lp-subnav__link.lp-nav__link--active:after{left:-12px;}.css-15tf01o .lp-subnav--popper{display:none;z-index:999;}.css-15tf01o .lp-subnav--popper.lp-subnav--open{display:block;}.css-15tf01o .lp-subnav--popper.lp-subnav--open .lp-subnav{display:block;}@media (max-width:959px){.css-15tf01o .lp-nav__link{width:100%;}.css-15tf01o .lp-nav__link:hover:after{left:-12px;}.css-15tf01o .lp-nav__link:after{left:-18px;height:70%;width:2px;bottom:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}.css-15tf01o .lp-nav__link.lp-nav__link--active:after{left:-12px;}}.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475{-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;font-family:"Raleway",sans-serif;font-size:calc(0.8em + (0.1em * 1));}.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link{color:rgba(29,32,36,1);font-weight:bold;font-style:normal;margin-left:calc(12px + 1.0675283643313487em);margin-right:12px;padding:calc(10px + 0.45584278811044954em) 0;}.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link:hover,.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link.lp-nav__link--active[data-link-type="site-route"]{color:rgba(29,32,36,1);}.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link:hover svg,.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link.lp-nav__link--active[data-link-type="site-route"] svg{fill:rgba(29,32,36,1);}.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link:hover:after,.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link.lp-nav__link--active[data-link-type="site-route"]:after{background-color:rgba(29,32,36,1);}@media (min-width:958px){.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link-container:last-child .lp-nav__link{margin-right:12px;}.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link-container:last-child .lp-nav__link.lp-subnav__link{margin-right:0px;}.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link-container:first-child .lp-nav__link{margin-left:12px;}.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link-container:first-child .lp-nav__link.lp-subnav__link{margin-left:0px;}}.css-15tf01o.w-42ae58cb-6bb8-0b18-4f26-072b5279d475 .lp-nav__link.lp-subnav__link{margin-left:12px;margin-right:calc(12px + 1.0675283643313487em);padding:calc(10px + 0.45584278811044954em) 0;}</style><div class="lp-nav w-42ae58cb-6bb8-0b18-4f26-072b5279d475 flex-end css-15tf01o" data-widget-type="LpNavReact"><style data-emotion-css="1oevijs">.css-1oevijs{position:relative;z-index:999;}@media (max-width:959px){.css-1oevijs{width:100%;}}</style>
               
+              <!-- ########## -->
               <!-- NAVIGATION -->
+              <!-- ########## -->
+               
               <div class="lp-nav__link-container css-1oevijs">
                 <a data-widget-link="true" href="/" target="_top" data-link-type="site-route" data-route-guid="1cd2406b-4fcf-46ac-fbde-6a49e7510d36" data-route-slug="" class="lp-nav__link" contenteditable="false">HOME</a>
               </div>
@@ -172,80 +168,39 @@
       
       <a href="#waitlist-modal" class="waitlist-trigger lp-button-react w-9288a5be-f8f7-ead9-0522-e9f70698c887 is-bold lp-button-react--small lp-button-react--flat lp-btn-flat font-scale-5 line-height-scale-5 css-hqsmy9" contenteditable="false">JOIN THE WAITLIST</a></div></div></div></div></div></div></div></div></div>
     
-    <style data-emotion-css="j5w9t3">.css-j5w9t3.side-nav-shield{display:none;}.css-j5w9t3.side-nav-shield.side-nav-shield--show{background-color:rgba(0,0,0,0.4);bottom:0;display:block;left:0;position:fixed;right:0;top:0;z-index:10;}</style>
+      <style data-emotion-css="j5w9t3">.css-j5w9t3.side-nav-shield{display:none;}.css-j5w9t3.side-nav-shield.side-nav-shield--show{background-color:rgba(0,0,0,0.4);bottom:0;display:block;left:0;position:fixed;right:0;top:0;z-index:10;}</style>
     
-    <div class="js-side-nav-shield side-nav-shield css-j5w9t3"></div>
+      <div class="js-side-nav-shield side-nav-shield css-j5w9t3"></div>
     </div>
-
     <div class="page-background"></div>
 
     <style data-emotion-css="jmhelw r2ag0e 119qg5r 2jofpk 1suqfqu 1ygvrvt">.page-background{position:fixed;height:100vh;top:0;left:0;right:0;bottom:0;z-index:-1;background-color:rgb(255,255,255);}section{margin:0 auto;}.container{max-width:1140px;}@media (min-width:calc(1140px / 16)em){.widget{padding:calc(1140px / 100);}}h1{color:rgba(255,83,215,1);font-family:"Montserrat",sans-serif;font-weight:bold;font-style:italic;}h2{color:rgb(84,18,220);font-family:"Montserrat",sans-serif;font-weight:bold;font-style:normal;}h3{color:rgb(0,0,0);font-family:"Montserrat",sans-serif;font-weight:bold;font-style:normal;}p{color:rgba(29,32,36,1);font-family:"Montserrat",sans-serif;font-weight:normal;font-style:normal;}ul{color:rgba(29,32,36,1);font-family:"Montserrat",sans-serif;font-weight:normal;font-style:normal;}h1{font-size:3rem;}h2{font-size:1.75rem;}h3{font-size:1.25rem;}p{font-size:1.125rem;}ul{font-size:1.125rem;}.lp-list.lp-list--bullet.text-align-left li::before{left:0;}.lp-list.lp-list--bullet.text-align-left li{padding-left:20px;}.lp-list.lp-list--numbered.text-align-left li::before{left:-3px;}.lp-list.lp-list--numbered.text-align-left li{padding-left:20px;}.lp-list.lp-list--numbered.text-align-left li:nth-child(n + 10){padding-left:30px;}@media only screen and (max-width:480px){.lp-list.lp-list--numbered.text-align-left li:nth-child(n + 10){padding-left:25px;}}.lp-list.lp-list--icon.text-align-left li::before{left:-6px;}.lp-list.lp-list--checkmark.text-align-left li::before{left:-6px;}h1{padding-bottom:0em;}h2{padding-bottom:0em;}h3{padding-bottom:0em;}p{margin-bottom:0em;}p,.lp-list{margin-bottom:0em;}ul{margin-bottom:0em;}h1{line-height:1.125;}h2{line-height:1.125;}h3{line-height:1.125;}p{line-height:1.75;}ul{line-height:1.75;}@media (min-width:480px){h1{font-size:2.375rem;}}@media (min-width:768px){h1{font-size:3rem;}}@media (min-width:480px){h2{font-size:1.5rem;}}@media (min-width:768px){h2{font-size:1.75rem;}}@media (min-width:480px){h3{font-size:1.125rem;}}@media (min-width:768px){h3{font-size:1.25rem;}}@media (min-width:480px){p{font-size:1rem;}}@media (min-width:768px){p{font-size:1.125rem;}}@media (min-width:480px){ul{font-size:1rem;}}@media (min-width:768px){ul{font-size:1.125rem;}}.lp-alert,.lp-calendar-react .date,.lp-calendar-react .month,.lp-form-v2-input-react{font-family:"Montserrat",sans-serif;}.lp-form-v2-input-react{color:rgba(29,32,36,1);}</style>
 
     <style data-emotion-css="1o3acgz">.css-1o3acgz{background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(undefined);}</style>
 
-    <div class="site css-1o3acgz">
-      <div class="route" data-slug="" data-guid="1cd2406b-4fcf-46ac-fbde-6a49e7510d36" data-page-title="TradeHabit - Break Bad Trading Habits" data-description="TradeHabit helps traders identify and correct the bad trading behaviors that are draining your account." data-keywords="emotional trading behavioral analytics" data-robots="" data-home-slug="home">
-        <div class="page">
 
+
+    <!-- ################### -->
+    <!-- PAGE BODY CONTAINER -->
+    <!-- ################### -->
+
+
+    <div class="site css-1o3acgz">
+      <div class="route">
+        <div class="page">
 
           <style data-emotion-css="1lwhgai">.css-1lwhgai{background-color:rgba(218,255,86,1);border-color:rgba(218,255,86,1);background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url("/assets/images/BG-Gradient-1000w16.png");background-size:cover;background-position:center top;background-repeat:no-repeat;min-height:50vh;}.css-1lwhgai > .container{padding-top:0vw;padding-right:0vw;padding-bottom:0vw;padding-left:0vw;padding-top:0cqw;padding-right:0cqw;padding-bottom:0cqw;padding-left:0cqw;}.site-header .css-1lwhgai > .container{padding-top:-5px;padding-right:0;padding-bottom:-5px;padding-left:0;-webkit-transition:padding 0.03s ease;transition:padding 0.03s ease;}.bar .css-1lwhgai{padding:0 50px;}@media (max-width:23.75em){.bar .css-1lwhgai{padding:0 25px;}}@media (min-width:71.25em){.css-1lwhgai > .container{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;}}</style>
 
-          <section class="flex-display flex-direction-column flex-justify-center has-background-image has-background-size-cover section css-1lwhgai" data-guid="110b80f2-ee92-4459-b107-4d9b826736e5" data-background="/assets/images/BG-Gradient-1000.png"><style data-emotion-css="1nc6yl2">.css-1nc6yl2{position:absolute;bottom:0;line-height:0;width:100%;overflow:hidden;}</style><div class="shape-wrapper css-1nc6yl2"><svg data-name="Shape Divider" data-testid="divider" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 81" preserveAspectRatio="none" class="curve-divider" style="width:calc(220% + 1.3px);height:280px;transform:none"><path d="M1200 61.5175V81H600H0V61.5175C0 61.5175 269 0 600 0C931 0 1200 61.5175 1200 61.5175Z" class="curve" style="fill:rgb(255, 255, 255)"></path></svg></div><div class="container" id="hero"><div class="layout flex flex--12" data-guid="5c3252f4-b982-4cc6-be82-024ca0f7834f"><style data-emotion-css="1n0i755">.css-1n0i755{padding-top:0vw;padding-right:0vw;padding-bottom:0vw;padding-left:4vw;padding-top:0cqw;padding-right:0cqw;padding-bottom:0cqw;padding-left:4cqw;}@media(min-width:71.25em){.css-1n0i755.column{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:45.6px;}.css-1n0i755.column > .inner-column{padding-top:11.4px;padding-right:11.4px;padding-bottom:11.4px;padding-left:11.4px;}}</style><div class="column flex__item--md-6 flex__item--xs-12 css-1n0i755" data-guid="22faefea-b929-a46e-055b-07188bce1487"><style data-emotion-css="eeduzr">.css-eeduzr{background-color:rgba(0,0,0,0);border-color:rgba(0,0,0,0);border-radius:0px;background-size:cover;background-position:center center;background-repeat:no-repeat;padding-top:1vw;padding-right:1vw;padding-bottom:1vw;padding-left:1vw;padding-top:1cqw;padding-right:1cqw;padding-bottom:1cqw;padding-left:1cqw;}.bar .css-eeduzr{padding-top:0;padding-bottom:0;}</style><div class="inner-column css-eeduzr"><style data-emotion-css="47r3vg">.section--center-widgets .css-47r3vg{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}@media (max-width:767px){.bar .css-47r3vg{-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}}</style><div class="row flex flex--12 css-47r3vg"><style data-emotion-css="8x0d4x">.section--center-widgets .css-8x0d4x{-webkit-flex-basis:auto;-ms-flex-preferred-size:auto;flex-basis:auto;max-width:100%;}</style><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="abd4515f-0a04-b0c2-c924-39484b654482" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><h1 class="lp-headline text-align-left headline">Vanquish Your Trading Demons</h1></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="1fc707dd-6b08-dafe-4119-cc9f00a82391" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><p class="text-align-left">TradeHabit helps traders fix the bad habits draining your account.&nbsp;</p></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="1691f801-906a-8348-b7a2-051dcbe3caba" class="widget"><style data-emotion-css="163w4ef">.css-163w4ef{position:relative;z-index:0;text-align:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;}</style><div class="lp-button-react-wrapper css-163w4ef" data-widget-type="LpButtonReact"><style data-emotion-css="11v9sbr">.css-11v9sbr{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;border-style:solid;border-width:1px;text-align:center;font-family:'Lato',sans-serif;text-shadow:none;-webkit-transition:color 0.2s linear,background 0.2s linear,border-color 0.2s linear, text-shadow 0.2s linear;transition:color 0.2s linear,background 0.2s linear,border-color 0.2s linear, text-shadow 0.2s linear;-webkit-text-decoration:none;text-decoration:none;position:relative;font-weight:bold;min-height:48px;min-width:96px;padding:14px 24px;font-family:"Raleway",sans-serif;border-radius:10px;}.css-11v9sbr::before{border-radius:10px;}.css-11v9sbr,.css-11v9sbr:focus,.css-11v9sbr:active{border-color:rgb(29,32,36);background:rgb(29,32,36);color:rgb(246,243,253);}.css-11v9sbr:hover{background-color:rgb(70,77,87);border-color:rgb(70,77,87);color:rgb(246,243,253);}</style>
-            
+          <!-- PAGE BODY -->
+          
+          <div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact" style="padding: 5rem 0 10rem 0; background-color:rgba(218,255,86,1);">
+            <h1 class="lp-headline text-align-center headline">Heading</h1>
+            <p class="text-align-center line-height-scale-10 gutter-bottom-1"><br>Body content.</p>
+          </div>
+          
+          
 
-
-            <!-- JOIN THE WAITLIST BUTTON -->
-            <a href="#waitlist-modal" class="waitlist-trigger lp-button-react w-1691f801-906a-8348-b7a2-051dcbe3caba is-bold lp-button-react--medium lp-button-react--flat lp-btn-flat font-scale-5 line-height-scale-5 css-11v9sbr" contenteditable="false"><b>JOIN THE WAITLIST</b></a>
-
-
-          
-          </div></div></div></div></div></div></div></div></div></div><style data-emotion-css="vfaad">.css-vfaad{padding-top:0vw;padding-right:0vw;padding-bottom:0vw;padding-left:0vw;padding-top:0cqw;padding-right:0cqw;padding-bottom:0cqw;padding-left:0cqw;}@media(min-width:71.25em){.css-vfaad.column{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;}.css-vfaad.column > .inner-column{padding-top:11.4px;padding-right:11.4px;padding-bottom:11.4px;padding-left:11.4px;}}</style><div class="column flex__item--md-6 flex__item--xs-12 css-vfaad" data-guid="da143eaf-5a23-0d6a-b253-aa24e40e0186"><div class="inner-column css-eeduzr"><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="b00b7378-cf83-f407-a452-c36cb46cb3f1" class="widget"><style data-emotion-css="1yltisf">.css-1yltisf{text-align:center;}</style><div class="css-1yltisf"><div><style data-emotion-css="g5765t">.css-g5765t{display:inline-block;vertical-align:middle;max-width:1280px;border-radius:12px;}@media (max-width:530px){.site-header .composite .widget .css-g5765t{max-width:calc(100% - 80px);}}</style>
-            
-            
-            <img class="lp-image-react w-b00b7378-cf83-f407-a452-c36cb46cb3f1 css-g5765t" 
-              src="/assets/images/tradehabit-dashboard.png" 
-              alt="TradeHabit Dashboard" 
-              style="width:100%"/>
-          
-          
-          </div></div></div></div></div></div></div></div></div></div></div></div></div></section>
-
-          <style data-emotion-css="1lfplzp">.css-1lfplzp{background-color:rgb(255,255,255);border-color:rgb(255,255,255);background-size:cover;background-position:center center;background-repeat:no-repeat;}.css-1lfplzp > .container{padding-top:6vw;padding-right:1vw;padding-bottom:6vw;padding-left:1vw;padding-top:6cqw;padding-right:1cqw;padding-bottom:6cqw;padding-left:1cqw;}.site-header .css-1lfplzp > .container{padding-top:25px;padding-right:0;padding-bottom:25px;padding-left:0;-webkit-transition:padding 0.03s ease;transition:padding 0.03s ease;}.bar .css-1lfplzp{padding:0 50px;}@media (max-width:23.75em){.bar .css-1lfplzp{padding:0 25px;}}@media (min-width:71.25em){.css-1lfplzp > .container{padding-top:68.4px;padding-right:11.4px;padding-bottom:68.4px;padding-left:11.4px;}}</style>
-          
-          <section class="section css-1lfplzp" data-guid="9c4e045c-bb43-5656-db28-faf42ddf0d44"><div class="container" id="features"><div class="layout flex flex--12" data-guid="4c7abb27-dd68-a635-10cd-60cae5de2943"><div class="column flex__item--md-12 flex__item--xs-12 css-vfaad" data-guid="3a4f85ce-857c-05cd-a03e-b90425d25a47"><div class="inner-column css-eeduzr"><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="83e9246e-7524-c754-714e-3b37abb5c53b" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><h1 class="lp-headline text-align-center headline">Discipline Before Profits</h1></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="49ef72c7-679d-f114-617e-fb5323aea9c6" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><p class="text-align-center font-scale-4 line-height-scale-6 gutter-bottom-1">Most platforms drown beginners in charts and complex dashboards that matter little at the start of a trader’s journey. TradeHabit puts discipline first. Just upload your order data and get clear, behavioral insights that tell you exactly what’s hurting your results.</p></div></div></div></div></div></div></div></div></div></div></div><div class="layout flex flex--12" data-guid="d83fd066-102a-bd8c-182e-5dc72201b592"><div class="column flex__item--md-4 flex__item--xs-12 css-vfaad" data-guid="d316fcc5-db3e-a854-a97e-d8030bf38ca8"><div class="inner-column css-eeduzr"><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="71410535-993a-a9d4-a211-cc2e8705f8b7" class="widget"><div class="css-1yltisf"><div><style data-emotion-css="ap6l3n">.css-ap6l3n{display:inline-block;vertical-align:middle;max-width:1733px;border-radius:10000px;}@media (max-width:530px){.site-header .composite .widget .css-ap6l3n{max-width:calc(100% - 80px);}}</style>
-            
-            <img class="lp-image-react w-71410535-993a-a9d4-a211-cc2e8705f8b7 css-ap6l3n" 
-              src="/assets/images/analyze.jpg" 
-              alt="Analytics Display" 
-              style="width:89%"/>
-          
-          
-          </div></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="9c53798d-5f08-f647-c129-27d825cc5f17" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><h3 class="lp-headline text-align-center small-subhead">Identify Bad Behaviors</h3></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="56d1dfb9-e0ae-945d-95cf-9ee7c9062802" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><p class="text-align-center font-scale-4 line-height-scale-7 gutter-bottom-1"></p><p class="text-align-center font-scale-4 line-height-scale-7 gutter-bottom-1">See all the bad behaviors that are hindering your success, set goals and take challenges to start eliminating bad behaviors.</p></div></div></div></div></div></div></div></div></div></div><div class="column flex__item--md-4 flex__item--xs-12 css-vfaad" data-guid="ac4c6b8c-1f12-f32b-787a-0cf800574d48"><div class="inner-column css-eeduzr"><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="ade2a819-91cf-a34f-eacf-062916c417bb" class="widget"><div class="css-1yltisf"><div><style data-emotion-css="ndkydi">.css-ndkydi{display:inline-block;vertical-align:middle;max-width:1880px;border-radius:10000px;}@media (max-width:530px){.site-header .composite .widget .css-ndkydi{max-width:calc(100% - 80px);}}</style>
-            
-            <img class="lp-image-react w-ade2a819-91cf-a34f-eacf-062916c417bb css-ndkydi" 
-              src="/assets/images/easy.jpg" 
-              alt="Easy to Comprehend, Clearly Actionable" 
-              style="width:100%"/>
-            
-            </div></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="4a57b5e3-82ab-57bf-83d2-30f120d88ed2" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><h3 class="lp-headline text-align-center small-subhead">Easy to Comprehend,<br>Clearly Actionable</h3></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="c2242512-cef9-b203-b399-ce65f7ec8589" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><p class="text-align-left font-scale-4 line-height-scale-7">TradeHabit gets rid of the clutter and focuses on the behaviors that drive your trading performance.&nbsp;</p></div></div></div></div></div></div></div></div></div></div><div class="column flex__item--md-4 flex__item--xs-12 css-vfaad" data-guid="a1beeff2-685e-9167-4248-c861b423a1d3"><div class="inner-column css-eeduzr"><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="73bceb17-a3f5-e71f-9835-9fe39eb57202" class="widget"><div class="css-1yltisf"><div>
-              
-              <img class="lp-image-react w-73bceb17-a3f5-e71f-9835-9fe39eb57202 css-ndkydi" 
-                src="/assets/images/results.jpg" 
-                alt="Build Good Habits" 
-                style="width:100%"/>
-              
-              </div></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="20755b14-8974-ee57-11e3-ad767bfc0efa" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><h3 class="lp-headline text-align-center small-subhead">Build Good Habits</h3></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="cf19d1f9-86b2-3b9e-d44d-f2df4eff619b" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><p class="text-align-center font-scale-4 line-height-scale-7 gutter-bottom-1"></p><p class="text-align-center font-scale-4 line-height-scale-7 gutter-bottom-1">Follow a fun, structured approach to habit-building that is challenging and drives personal accountability.</p></div></div></div></div></div></div></div></div></div></div></div></div></section>
-          
-          <style data-emotion-css="h25o6q">.css-h25o6q{background-color:rgba(218,255,86,1);border-color:rgba(218,255,86,1);background-size:cover;background-position:center center;background-repeat:no-repeat;}.css-h25o6q > .container{padding-top:6vw;padding-right:1vw;padding-bottom:6vw;padding-left:1vw;padding-top:6cqw;padding-right:1cqw;padding-bottom:6cqw;padding-left:1cqw;}.site-header .css-h25o6q > .container{padding-top:25px;padding-right:0;padding-bottom:25px;padding-left:0;-webkit-transition:padding 0.03s ease;transition:padding 0.03s ease;}.bar .css-h25o6q{padding:0 50px;}@media (max-width:23.75em){.bar .css-h25o6q{padding:0 25px;}}@media (min-width:71.25em){.css-h25o6q > .container{padding-top:68.4px;padding-right:11.4px;padding-bottom:68.4px;padding-left:11.4px;}}</style>
-          
-          <section class="section css-h25o6q" data-guid="64da653c-3682-3012-8509-b807d2541247"><div class="container" id="cta-section"><div class="layout flex flex--12" data-guid="5dca29f2-8108-5b13-9d8b-01fae3c1ec87"><div class="column flex__item--md-12 flex__item--xs-12 css-vfaad" data-guid="b8db2745-2b65-3b8b-27a4-92f6be56df4e"><div class="inner-column css-eeduzr"><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="94f72176-26f1-7544-a044-c61855e93d07" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><h1 class="lp-headline text-align-center headline">Sign up to get early access to the TradeHabit beta.</h1></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="f53d685e-b3e5-ee74-52ad-6efedad1209f" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><p class="text-align-center"><span style="color: rgba(29, 32, 36, 1);">Stop avoiding what's making the greatest impact on your trading performance. Start identifying the behaviors that are draining your account. Start building discipline with TradeHabit.&nbsp;</span></p></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="ddeca1df-cd2b-d86c-0478-eccdb552c32b" class="widget"><style data-emotion-css="piwg9t">.css-piwg9t{position:relative;z-index:0;text-align:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}</style><div class="lp-button-react-wrapper css-piwg9t" data-widget-type="LpButtonReact">
-
-
-            
-            <!-- JOIN THE WAITLIST BUTTON -->
-            <a href="#waitlist-modal" class="waitlist-trigger lp-button-react w-ddeca1df-cd2b-d86c-0478-eccdb552c32b is-bold lp-button-react--medium lp-button-react--flat lp-btn-flat font-scale-5 line-height-scale-5 css-11v9sbr" contenteditable="false">JOIN THE WAITLIST</a></div></div></div></div></div></div></div></div></div></div></div></div></section>
-
-          
+          <!-- BEGIN FOOTER -->
           <div class="site-footer"><style data-emotion-css="1cd2d1r">.css-1cd2d1r{background-color:rgba(29,32,36,1);border-color:rgba(29,32,36,1);background-size:cover;background-position:center center;background-repeat:no-repeat;}.css-1cd2d1r > .container{padding-top:1vw;padding-right:1vw;padding-bottom:1vw;padding-left:1vw;padding-top:1cqw;padding-right:1cqw;padding-bottom:1cqw;padding-left:1cqw;}.site-header .css-1cd2d1r > .container{padding-top:0px;padding-right:0;padding-bottom:0px;padding-left:0;-webkit-transition:padding 0.03s ease;transition:padding 0.03s ease;}.bar .css-1cd2d1r{padding:0 50px;}@media (max-width:23.75em){.bar .css-1cd2d1r{padding:0 25px;}}@media (min-width:71.25em){.css-1cd2d1r > .container{padding-top:11.4px;padding-right:11.4px;padding-bottom:11.4px;padding-left:11.4px;}}</style><section class="section css-1cd2d1r" data-guid="349c532b-2f13-d978-5171-4b35b55195bb"><div class="container" id="site-footer"><div class="layout flex flex--12" data-guid="aad8b62e-1d0a-e63d-afbe-086e9e3c6338"><div class="column flex__item--md-12 flex__item--xs-12 css-vfaad" data-guid="ecf20179-d41e-a7a8-1f27-323fbe640175"><div class="inner-column css-eeduzr"><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="7969fe4f-57dc-00f8-aec9-cf8915685f88" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><p class="text-align-center font-scale-4 line-height-scale-3 gutter-bottom-1"><span style="color: rgb(255, 255, 255);"><strong>Risk Warning<br></strong></span><br><span style="color: rgb(255, 255, 255);"><span class="font-scale-3">Trading complex speculative financial products may result in rapid loss of capital.&nbsp;</span></span></p></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="7183fbe2-d868-1985-4518-cd385ed866a8" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><p class="text-align-center font-scale-4 line-height-scale-3 gutter-bottom-1"><span style="color: rgb(255, 255, 255);"><strong>Risk Disclosure</strong><br></span><br><span style="color: rgb(255, 255, 255);"><span class="font-scale-3">Trading futures, forex, and other leveraged instruments involves substantial risk of loss. Information on this site is provided for educational purposes only and does not constitute investment advice. Past performance is not indicative of future results. TradeHabit is not a registered broker-dealer or investment adviser.</span></span></p></div></div></div></div></div></div></div></div><div class="row flex flex--12 css-47r3vg"><div class="composite flex__item--md-12 flex__item--xs-12 css-8x0d4x"><div class="inner-composite flex flex--12"><div class="widget-column flex__item--md-12 flex__item--xs-12"><div class="widget-row flex flex--12"><div class="flex__item--md-12 flex__item--xs-12"><div data-widget-id="4914fb17-f147-1b24-ec43-3ffc251b4a49" class="widget"><div class="lp-text-react lp-headline-react" data-widget-type="LpTextReact"><p class="text-align-center font-scale-3 line-height-scale-3 gutter-bottom-1"><span style="color: rgb(255, 255, 255);">© 2025 All Rights Reserved</span></p></div></div></div></div></div></div></div></div></div></div></div></div></section></div>
         </div>
       </div>

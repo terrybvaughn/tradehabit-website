@@ -6,7 +6,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const modal     = document.getElementById('waitlist-modal');
   const overlay   = modal.querySelector('.modal-overlay');
-  const closeBtn  = modal.querySelector('.modal-close');
 
   /* helper functions */
   const openModal  = () => {
@@ -26,11 +25,15 @@ document.addEventListener('DOMContentLoaded', () => {
       openModal();
     }));
 
-  /* 2. CLOSE on overlay click or “×” button */
-  [overlay, closeBtn].forEach(el =>
-    el.addEventListener('click', closeModal));
+  /* 2. CLOSE on overlay click */
+  overlay.addEventListener('click', e => {
+    const dialog = modal.querySelector('.modal-dialog');
+    if (!dialog.contains(e.target)) {
+      closeModal();
+    }
+  });
 
-  /* 3. CLOSE on Esc key */
+  /* 3. CLOSE on Escape key */
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
       closeModal();
